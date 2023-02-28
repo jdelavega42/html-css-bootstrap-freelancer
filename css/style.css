@@ -6,7 +6,11 @@ img {
 label {
     display: none;
 }
+a {
+    text-decoration: inherit;
+    color: inherit;
 
+}
 .form-control {
     border: 0;
 
@@ -71,4 +75,31 @@ label {
 }
 .ms_btn:hover {
     border: 1px solid var(--secondary-clr);
+}
+
+/* !FOOTER */
+.ms_rounded {
+    display: inline-block;
+    border: 1px solid var(--tertiary-clr);
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    text-align: center;
+    line-height: 2.5rem;
+    margin: .5rem;
+    transition: 250ms;
+}
+
+.ms_rounded:hover {
+    background-color: var(--tertiary-clr);
+    color: var(--quaternary-clr);
+}
+
+.ms_link {
+    color: var(--primary-clr);
+}
+
+.ms_link:hover {
+    color: var(--tertiary-clr);
+    text-decoration: underline;
 }
