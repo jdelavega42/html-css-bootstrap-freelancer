@@ -1,0 +1,29 @@
+/* !RESET */
+img {
+    max-width: 100%;
+}
+
+/* !ROOT */
+:root {
+    --primary-clr: #1ABC9C;
+    --secondary-clr: #2C3E50;
+    --tertiary-clr: white;
+    --quaternary-clr: #3A546D;
+}
+
+/* !HEADER */
+.ms_navbar {
+    background-color: var(--secondary-clr);
+}
+
+.ms_navbar a {
+    color: var(--tertiary-clr);
+}
+
+.navbar {
+    text-transform: uppercase;
+    --bs-navbar-toggler-border-color: var(--tertiary-clr);
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
