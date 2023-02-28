@@ -14,15 +14,15 @@
 </head>
 <body>
     <!-- !HEADER -->
-    <header class=" ms_navbar">
+    <header class=" ms_secondary text-uppercase">
         <div class="container">
             <nav class="navbar navbar-expand-md">
                 <a class="navbar-brand" href="#"><h3>Start Bootstrap</h3></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse d-flex-md justify-content-md-end" id="navbarNav">
+                    <ul class="navbar-nav text-end">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="portfolio">Portfolio</a>
                         </li>
@@ -36,19 +36,92 @@
                 </div>
             </nav>
         </div>
-
     </header>
     <!-- !/HEADER -->
 
     <!-- !MAIN -->
     <main>
+        <!-- @jumbotron -->
+        <div class="ms_primary text-uppercase text-center">
+            <div class="container">
+                <img src="img/avatar.svg" alt="partner-img">
+                <h2>Start bootstrap</h2>
+                <span><i class="fa-solid fa-star fa-2x"></i></span>
+                <h4>Graphic Artist - Web Designer - Illustrator</h4>
+            </div>
+            
+        </div>
+        <!-- @/jumbotron -->
 
+        <!-- @portfolio -->
+        <div class="ms_tertiary text-center" id="portfolio">
+            <div class="container">
+                <h3 class="text-uppercase">Portfolio</h3>
+                <span><i class="fa-solid fa-star fa-2x"></i></span>
+                <div class="row row-cols-1 row-cols-md-2  row-cols-lg-3 g-3">
+                    <div class="col"><img src="img/cabin.png" alt=""></div>
+                    <div class="col"><img src="img/cabin.png" alt=""></div>
+                    <div class="col"><img src="img/cabin.png" alt=""></div>
+                    <div class="col"><img src="img/cabin.png" alt=""></div>
+                    <div class="col"><img src="img/cabin.png" alt=""></div>
+                    <div class="col"><img src="img/cabin.png" alt=""></div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- @/portfolio -->
+
+        <!-- @about -->
+        <div class="ms_primary">
+            <div class="container" id="about">
+                <div class="ms_container">
+                    <h3 class="text-uppercase text-center">About</h3>
+                    <span class="d-block text-center"><i class="fa-solid fa-star fa-2x"></i></span>
+                    <div class="row row-cols-1 row-cols-md-2">
+                        <div class="col">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, quaerat quos sapiente vel officia, eaque nam recusandae, quis fugiat facilis architecto laborum illo tempora sint dolore hic. Tenetur, cum ducimus?</div>
+                        <div class="col">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, quaerat quos sapiente vel officia, eaque nam recusandae, quis fugiat facilis architecto laborum illo tempora sint dolore hic. Tenetur, cum ducimus?</div>
+                    </div>
+                    <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download"></i> Download</button>
+                </div>
+            </div>
+            
+        </div>
+        <!-- @/about -->
+
+        <!-- @contact -->
+        <div class="ms_tertiary">
+            <div class="container" id="contact">
+                <div class="ms_container">
+                    <h3 class="text-uppercase text-center">Contact me</h3>
+                    <span class="d-block text-center"><i class="fa-solid fa-star fa-2x"></i></span>
+                    <form action="#">
+                        <label for="name" class="col-form-label">Nome</label>
+                        <input type="text" id="name" class="form-control  border-bottom border-dar" placeholder="Nome">
+                        <label for="email" class="col-form-label">Email Adress</label>
+                        <input type="email" id="email" class="form-control  border-bottom border-dar" placeholder="Email Address">
+                        <label for="phone" class="col-form-label">Phone Number</label>
+                        <input type="text" id="phone" class="form-control  border-bottom border-dar" placeholder="Phone Number">
+                        <label for="Message" class="col-form-label">Message</label>
+                        <textarea type="text" id="Message" rows="5" class="form-control border-bottom border-dark" placeholder="Message"></textarea> 
+                        <button type="submit" class=" btn ms_btn text-start">Send</button>
+                    </form>
+                </div>
+            </div>           
+        </div>
+        <!-- @/contact -->
     </main>
     <!-- !/MAIN -->
 
     <!-- !FOOTER -->
-    <footer>
-
+    <footer class="text-center">
+        <div class="container-fluid ms_quaternary">
+            <div class="container">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum totam mollitia tempora dolores ipsum, neque velit ullam, repellat voluptatibus minima consectetur. Repellendus, voluptate similique! Expedita quae amet nesciunt sapiente magnam.</div>
+        </div>
+        <div class="container-fluid ms_secondary">
+            <div class="container">
+                <p>Copyright <i class="fa-regular fa-copyright"></i> Your Website 2023</p>
+            </div>
+        </div>
     </footer>
     <!-- !/FOOTER -->
     

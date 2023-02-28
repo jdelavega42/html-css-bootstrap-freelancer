@@ -3,7 +3,16 @@ img {
     max-width: 100%;
 }
 
-/* !ROOT */
+label {
+    display: none;
+}
+
+.form-control {
+    border: 0;
+
+}
+/* !COMMON */
+/* @root */
 :root {
     --primary-clr: #1ABC9C;
     --secondary-clr: #2C3E50;
@@ -11,19 +20,55 @@ img {
     --quaternary-clr: #3A546D;
 }
 
-/* !HEADER */
-.ms_navbar {
-    background-color: var(--secondary-clr);
-}
-
-.ms_navbar a {
+/* @color palette */
+.ms_primary {
+    background-color: var(--primary-clr);
     color: var(--tertiary-clr);
 }
 
+.ms_secondary {
+    background-color: var(--secondary-clr);
+    color: var(--tertiary-clr);
+
+}
+
+.ms_secondary a {
+    color: var(--tertiary-clr);
+}
+
+.ms_tertiary {
+    background-color: var(--tertiary-clr);
+    color: var(--secondary-clr);
+}
+.ms_quaternary {
+    background-color: var(--quaternary-clr);
+    color: var(--tertiary-clr);
+}
+/* @utilities */
+.ms_container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* !HEADER */
+
 .navbar {
-    text-transform: uppercase;
     --bs-navbar-toggler-border-color: var(--tertiary-clr);
 }
-.navbar-collapse {
-    justify-content: flex-end;
+
+
+/* !MAIN */
+/* @jumbotron */
+
+/* @about */
+
+/* @contact */
+.ms_btn {
+    background-color: var(--primary-clr);
+    color: var(--tertiary-clr);
+    border: none;
+}
+.ms_btn:hover {
+    border: 1px solid var(--secondary-clr);
 }
